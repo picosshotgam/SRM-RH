@@ -1,0 +1,30 @@
+# ===========================
+# BACKEND (Laravel)
+# ===========================
+backend/vendor/
+backend/.env
+backend/.env.backup
+backend/storage/logs/*.log
+backend/storage/framework/cache/
+backend/storage/framework/sessions/
+backend/storage/framework/views/
+backend/bootstrap/cache/
+backend/node_modules/
+
+# ===========================
+# FRONTEND (React / Vite)
+# ===========================
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+
+# ===========================
+# General
+# ===========================
+.DS_Store
+Thumbs.db
+*.log
+*.zip
+*.tar.gz
